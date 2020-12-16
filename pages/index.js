@@ -3,9 +3,14 @@ function Home({ allPreparationGuides }) {
     <div>
       {allPreparationGuides.map(preparationGuide => {
         return (
-          <div>
-            <div>{preparationGuide.name}</div>
-          </div>
+          <>
+            <div>
+              I am a new feature branch
+            </div>
+            <div>
+              <div>{preparationGuide.name}</div>
+            </div>
+          </>
         )
       })}
     </div>
