@@ -1,2 +1,4 @@
+amplify/
+pages/aws-exports.js
 node_modules
 .next
